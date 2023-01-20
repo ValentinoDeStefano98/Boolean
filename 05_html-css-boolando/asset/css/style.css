@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+/* HEADER */
+.header{
+    padding: 10px 10px;
+    height: 125px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+    font-size: 3em;
+}
+
+.logo{
+    height: 100px;
+    vertical-align: middle;
+}
+/* HEADER */
+
+/* PRODOTTO */
+
+/* IMMAGINE */
+.image{
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+
+.image-2{
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card{
+    display: inline-block;
+    position: relative;
+    height: 400px;
+}
+
+.card-block{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+.card:hover .image{
+    visibility: hidden;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+/* IMMAGINE */
+
+/* ETICHETTE IMMAGINI */
+.like{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 0; 
+    width: 30px;
+    padding: 5px;
+    background-color: white;
+    z-index: 4;
+}
+
+.discount-target{
+    position: absolute;
+    bottom: 100px;
+    z-index: 4;
+}
+
+.discount{
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    border-radius: 8%;
+    background-color: red;
+    text-align: center;
+    z-index: 4;
+}
+
+.price{
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.sostenibily{
+    display: inline-block;
+    height: 30px;
+    background-color: green;
+    border-radius: 8%;
+}
+
+.sostenibily-text{
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 30px;
+    vertical-align: middle;
+
+}
+/* ETICHETTE IMMAGINI */
+
+/* MARCA E PREZZO */
+.marca{
+    position: absolute;
+    font-size: 12px;
+}
+
+.price-product{
+    font-size: 12px;
+}
+
+.red{
+    color: red;
+}
+
+.product{
+    text-align: left;
+}
+/* MARCA E PREZZO */
+
+/* PRODOTTO */
+
+/* FOOTER */
+footer{
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.right{
+    line-height: 100px;
+    vertical-align: middle;
+    font-style: italic;
+}
+/* FOOTER */

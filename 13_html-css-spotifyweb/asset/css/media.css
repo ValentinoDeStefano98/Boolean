@@ -1,0 +1,373 @@
+/* TABLET */
+@media screen and (min-width: 639px) and (max-width: 1023px){
+
+    /* ELEMENTS TO HIDE */
+    .small-logo{
+            display: none;
+    }
+
+    /* ELEMENTS TO SHOW */
+    .big-logo{
+        display: contents;
+    }
+
+    .id .install,
+    .id .user{
+        display: contents;
+    }
+
+    .text-icon{
+        display: contents;
+    }
+
+    .id .hr{
+        display: block;
+    }
+
+    /* ASIDE */
+    .aside{
+        width: 30%;
+    }
+
+    .id{
+        width: 90%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+
+    .big-logo a{
+        margin-bottom: 10%;
+    }
+
+    .aside-playlist{
+        display: contents;
+        border: 1px solid white;
+        width: 95%;
+    }
+
+    .navigation{
+        width: 95%;
+        /* padding-left: 5%; */
+        align-items: flex-start;
+    }
+
+    .padding-tablet{
+        padding-left: 5%;
+    }
+
+    .button-container .active-button{
+        border-left: 3px solid lightgreen;
+    }
+
+    .no-active-button{
+        border-left: 3px solid black;
+    }
+
+    .button-container{
+        justify-content: flex-start;
+    }
+
+    /* HEADER */
+    .header a{
+        margin-right: 26%;
+    }    
+}
+
+/* PC */
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+     /* ELEMENTS TO HIDE */
+    .small-logo{
+            display: none;
+    }
+
+    /* ELEMENTS TO SHOW */
+    .big-logo{
+        display: contents;
+    }
+
+    .id .install,
+    .id .user{
+        display: contents;
+    }
+
+    .text-icon{
+        display: contents;
+    }
+
+    .id .hr{
+        display: block;
+    }
+
+    .folder{
+        display: contents;
+    }
+
+    .control-volume{
+        display: block;
+    }
+
+    .control-volume input{
+        display: block;
+    }
+
+    /* ASIDE */
+    .aside{
+        width: 20%;
+    }
+
+    .id{
+        width: 90%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+
+    .big-logo a{
+        margin-bottom: 10%;
+    }
+
+    .aside-playlist{
+        display: contents;
+        border: 1px solid white;
+        width: 95%;
+    }
+
+    .navigation{
+        width: 95%;
+        align-items: flex-start;
+    }
+
+    .padding-tablet{
+        padding-left: 5%;
+    }
+
+    .button-container .active-button{
+        border-left: 3px solid lightgreen;
+    }
+
+     .no-active-button{
+        border-left: 3px solid black;
+    }
+
+    .button-container{
+        justify-content: flex-start;
+    }
+
+    /* HEADER */
+    .header a{
+        margin-right: 20%;
+    }
+    
+    /* MAIN */
+    .card{
+        flex-basis: calc(100% / 4 - 15px);
+    }
+
+    .recent-container{
+        justify-content: space-around;
+    }
+
+    .personal{
+        justify-content: flex-start;
+    }
+
+    .personal .card{
+        padding-right: 5%;
+    }
+
+    /* FOOTER */
+    .buttons{
+        width: 45%;
+        align-self: center;
+    }
+
+    .play{
+        flex-basis: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .song{
+        flex-basis: 20%;
+    }
+
+    .audio{
+        flex-basis: 20%;
+        padding-right: 10px;
+    }
+
+    .control{
+        flex-basis: 40%;
+    }
+
+    .start{
+        flex-basis: 30%;
+        justify-content: flex-end;
+    }
+
+    .end{
+        flex-basis: 30%;
+        justify-content: flex-start;
+    }
+
+    .control-volume{
+        flex-basis: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category{
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+    /* ELEMENTS TO HIDE */
+    .small-logo{
+            display: none;
+    }
+
+    /* ELEMENTS TO SHOW */
+    .big-logo{
+        display: contents;
+    }
+
+    .id .install,
+    .id .user{
+        display: contents;
+    }
+
+    .text-icon{
+        display: contents;
+    }
+
+    .id .hr{
+        display: block;
+    }
+
+    .folder{
+        display: contents;
+    }
+
+    .control-volume{
+        display: block;
+    }
+
+    .control-volume input{
+        display: block;
+    }
+
+    /* ASIDE */
+    .aside{
+        width: 20%;
+    }
+
+    .id{
+        width: 90%;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+
+    .big-logo a{
+        margin-bottom: 10%;
+    }
+
+    .aside-playlist{
+        display: contents;
+        border: 1px solid white;
+        width: 95%;
+    }
+
+    .navigation{
+        width: 95%;
+        align-items: flex-start;
+    }
+
+    .padding-tablet{
+        padding-left: 5%;
+    }
+
+    .button-container .active-button{
+        border-left: 3px solid lightgreen;
+    }
+
+     .no-active-button{
+        border-left: 3px solid black;
+    }
+
+    .button-container{
+        justify-content: flex-start;
+    }
+
+    /* HEADER */
+    .header a{
+        margin-right: 20%;
+    }
+    
+    /* MAIN */
+    .card{
+        flex-basis: 15%;
+    }
+
+    .recent-container{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .personal{
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .personal .card{
+        flex-basis: 15%;
+    }
+
+    /* FOOTER */
+    .buttons{
+        width: 45%;
+        align-self: center;
+    }
+
+    .play{
+        flex-basis: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .song{
+        flex-basis: 20%;
+    }
+
+    .audio{
+        flex-basis: 20%;
+        padding-right: 10px;
+    }
+
+    .control{
+        flex-basis: 40%;
+    }
+
+    .start{
+        flex-basis: 30%;
+        justify-content: flex-end;
+    }
+
+    .end{
+        flex-basis: 30%;
+        justify-content: flex-start;
+    }
+
+    .control-volume{
+        flex-basis: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category{
+        flex-wrap: nowrap;
+    }
+}

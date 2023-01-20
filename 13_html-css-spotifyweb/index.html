@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/media.css">
+    <title>Spotify</title>
+</head>
+<body>  
+    <!-- MAIN CONTAINER (NOT FOOTER) -->
+    <section class="container">
+        <!-- ASIDE BAR -->
+        <div class="aside">
+            <!-- TOP SECTION OF ASIDE BAR -->
+            <div class="navigation">
+                <div>
+                    <div class="small-logo">
+                        <a href="#"><img class="small-img" src="./asset/img/logo-small.svg" alt="logo spotify"></a>
+                    </div>
+                    <div class="big-logo">
+                        <a href="#"><img class="big-img padding-tablet" src="./asset/img/logo.svg" alt=""></a>
+                    </div>
+                    <div class="button-container">
+                        <a class="active-button padding-tablet" href="#"> <img class="home-button" src="./asset/img/home.svg" alt=""></a>
+                        <span class="text-icon page cursor color" id="page-active">Home</span> 
+                    </div>
+                    <div class="button-container">
+                        <a class="no-active-button padding-tablet" href="#"><img class="search" src="./asset/img/search.svg" alt=""> </a>
+                        <span class="text-icon cursor color">Cerca</span> 
+                    </div>
+                    <div class="button-container">
+                        <a class="no-active-button padding-tablet" href="#"><img class="library" src="./asset/img/libreria.svg" alt=""></a>
+                        <span class="text-icon cursor color">La tua libreria</span> 
+                    </div>               
+                </div> 
+                <!-- PLAYLIST SECTION (NOT FOR SMARTPHONE) -->
+                <div class="middle-playlist padding-tablet">
+                    <div class="aside-playlist">
+                        <h2>Playlist</h2>
+                        <div class="add">
+                            <div class="add-playlist">
+                                <a href="#"><i class="fa-solid fa-plus"></i> </a>     
+                            </div>
+                            <div>
+                                <span class="cursor color">Crea Playlist</span>
+                            </div>
+                        </div>
+                        <div class="playlist-list">
+                            <ul>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>    
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                                <li>
+                                    <a class="cursor color" href="#">Nome Playlist</a>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div> 
+                </div>
+            </div>           
+            <!-- BOTTOM SECTION OF ASIDE BAR -->
+            <div class="id">
+                <div>
+                    <a href="#"><i class="fa-solid fa-circle-arrow-down color"></i></a>
+                    <a class="install" href="#"><span class="color">Installa app</span></a>   
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <a href="#"><span class="user">John Doe</span></a> 
+                </div>              
+            </div>
+        </div>
+        <!-- MAIN SECTION -->
+        <div class="main">
+            <!-- HEADER SECTION (UPGRADE BUTTON) -->
+            <div class="header">
+                <a class="zoom" href="#">Effettua l'upgrade</a>
+            </div>
+            <!-- CENTRAL SECTION -->
+            <div class="home">
+                <!-- SONGS CATEGORIES -->
+                <div class="category">
+                    <div class="select active">
+                        <a href="#"><span class="color">In evidenza</span></a>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="select">
+                        <a href="#"><span class="color">Podcast</span></a>  
+                    </div>
+                    <div class="select">
+                        <a href="#"><span class="color">Classifiche</span></a>   
+                    </div>
+                    <div class="select">
+                        <a href="#"><span class="color">Generi e mood</span></a>  
+                    </div>
+                    <div class="select">
+                        <a href="#"><span class="color">Nuove uscite</span></a>   
+                    </div>
+                    <div class="select">
+                        <a href="#"><span class="color">Scopri</span></a>   
+                    </div>                                      
+                </div>
+                <!-- RECENTLY SONGS SECTIONS -->
+                <div class="title">
+                    <span class="edit-title">Recently played</span>
+                </div>  
+                <!-- SONGS CONTAINER -->
+                <div class="recent-container">
+                    <div class="card">
+                        <img class="opacity hover cursor" src="./asset/img/metal_lifting.jpg" alt="copertina album">
+                        <div class="invisible-play">
+                           <i class="fa-regular fa-circle-play cursor opacity"></i> 
+                        </div> 
+                        <div class="info">
+                           <div class="info-title">
+                                <span>Heavy Metal</span>
+                            </div>
+                            <div class="artist">
+                                <span>Subtitle</span>
+                             </div> 
+                        </div>                      
+                    </div>
+                    <div class="card cursor">
+                        <img class="opacity" src="./asset/img/stranger.jpeg" alt="copertina serie TV">
+                        <div class="invisible-play">
+                            <i class="fa-regular fa-circle-play cursor opacity"></i>
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <span>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</span>
+                            </div>
+                            <div class="artist">
+                                <span>Kyle Dixon & Michael Stein</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="opacity cursor" src="./asset/img/aquietplace.jpeg" alt="copertina film">
+                        <div class="invisible-play">
+                            <i class="fa-regular fa-circle-play cursor opacity"></i>
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <span>A quiet place </span>
+                            </div>
+                            <div class="artist">
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cursor">
+                        <img class="opacity" src="./asset/img/split.jpeg" alt="copertina musica">
+                        <div class="invisible-play">
+                            <i class="fa-regular fa-circle-play cursor opacity"></i>
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <span>Split </span>
+                            </div>
+                            <div class="artist">
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cursor">
+                        <img class="opacity" src="./asset/img/cure.jpeg" alt="copertina musica">
+                        <div class="invisible-play">
+                            <i class="fa-regular fa-circle-play cursor opacity"></i>
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <span>A cure for wellness <span>
+                            </div>
+                            <div class="artist">
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card cursor">
+                        <img class="opacity" src="./asset/img/sinister.jpeg" alt="copertina film">
+                        <div class="invisible-play">
+                            <i class="fa-regular fa-circle-play cursor opacity"></i>
+                        </div>
+                        <div class="info">
+                            <div class="info-title">
+                                <span>Sinister </span>
+                            </div>
+                            <div class="artist">
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PLAYLIST SECTION -->
+                <div class="personal-playlist">
+                    <span class="edit-title last-title">Creato per John Doe</span>
+                    <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
+                    <div class="personal">
+                        <div class="card cursor">
+                            <img class="opacity" src="./asset/img/radar.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Release radar</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="opacity" src="./asset/img/mixdaily.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Daily mix 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="opacity" src="./asset/img/mixdaily.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Daily mix 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="opacity" src="./asset/img/radar.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Release radar</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="opacity" src="./asset/img/mixdaily.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Daily mix 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="opacity" src="./asset/img/mixdaily.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Daily mix 1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+                <!-- POPULAR ARTISTS SECTION -->
+                <div class="best-artists">
+                    <span class="edit-title last-title">Artisti più popolari</span>
+                    <span class="listen">Più ascolti, più accurati saranno i tuoi suggerimenti.</span>
+                    <div class="personal">
+                        <div class="card cursor">
+                            <img class="circle opacity" src="./asset/img/youg.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Lana del Rey</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="circle opacity" src="./asset/img/einaudi.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Ludovico Einaudi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="circle opacity" src="./asset/img/youg.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Lana del Rey</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="circle opacity" src="./asset/img/youg.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Lana del Rey</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="circle opacity" src="./asset/img/einaudi.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Ludovico Einaudi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cursor">
+                            <img class="circle opacity" src="./asset/img/einaudi.jpeg" alt="">
+                            <div class="info">
+                                <div class="info-title">
+                                    <span>Ludovico Einaudi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>       
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <!-- SONG INFO SECTION -->
+        <div class="song">
+            <div class="cover">
+                <img class="cursor zoom" src="./asset/img/sinister.jpeg" alt="">
+            </div>
+            <div class="name">
+                <span class="cursor">Sinister</span>
+                <span class="playback-info cursor color">Brano</span>
+                <span class="playback-info cursor color">Nome</span>
+            </div>
+            <div class="like">
+                <i class="fa-regular fa-heart cursor color"></i>
+                <i class="fa-solid fa-folder folder cursor color"></i>
+            </div>
+        </div>
+        <!-- PLAY SECTION -->
+        <div class="play">
+            <div class="buttons">
+                <div class="button">
+                    <i class="fa-solid fa-shuffle cursor"></i>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-backward-step cursor"></i>
+                </div>
+                <div class="button principal">
+                    <i class="fa-regular fa-circle-play cursor zoom"></i>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-forward-step cursor"></i>
+                </div>
+                <div class="button">
+                    <i class="fa-solid fa-rotate-right cursor"></i>
+                </div>
+            </div>
+            <div class="time">
+                <div class="start">
+                    <span class="minute">0:25</span>
+                </div>
+                <div class="control">
+                    <input class="cursor" type="range" min="0" max="100" value="40">
+                </div>
+                <div class="end">
+                    <span class="minute">4:35</span>
+                </div>
+            </div>
+        </div>
+        <!-- AUDIO SECTION -->
+        <div class="audio">
+            <div class="list">
+                <i class="fa-solid fa-list-ul cursor color"></i>
+            </div>
+            <div class="connect">
+                <i class="fa-solid fa-tv cursor color"></i>
+            </div>
+            <div class="speaker">
+                <i class="fa-solid fa-volume-high cursor color"></i>
+            </div>
+            <div class="control-volume">
+                <input class="cursor" type="range" min="0" max="100" value="40">
+            </div>
+        </div>
+    </footer>
+
+</html>

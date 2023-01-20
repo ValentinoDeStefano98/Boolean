@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+/* HEADER */
+
+header{
+    height: 125px;
+    padding: 10px 10px;
+    background-color: #fff;
+}
+
+.logo{
+    height: 100px;
+    vertical-align: middle;
+}
+
+.titolo{
+    display: inline;
+    vertical-align: middle;
+    font-size: 3em;
+}
+/* HEADER */
+
+/* CONTAINER */
+.container{
+    width: 70%;
+    height: 800px;
+    margin: 40px auto;
+    border-radius: 1%;
+    background-color: white;
+}
+/* CONTAINER */
+
+/* PULSANTI */
+.button{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.pulsanti{
+    padding: 25px;
+    margin-left: 40px;
+}
+
+.btn-task{
+    background-color: cornflowerblue;
+    color: white;
+}
+.btn-section{
+    border: 1px solid #E0E0E0;
+    color: #E0E0E0;
+}
+
+#barra{
+    border-color: #E0E0E0;
+}
+/* PULSANTI */
+
+/* CHECK */
+.check{
+    padding: 40px;
+    margin-left: 28px;
+}
+
+.title{
+    margin-bottom: 5px;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
+/* PULSANTI */
+.content:before{
+    display: inline-block;
+    content:"\1F5F8";
+    border-color: green;
+    color: green;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.not:before{
+    display: inline-block;
+    content: "\1F5F4";
+    color: red;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+/* PULSANTI */
+
+/* ETICHETTE */
+
+.etichetta{
+    border-radius: 50%;
+    padding: 9px;
+    color: white;
+}
+
+.editorial{
+    background-color: cornflowerblue;
+
+}
+
+.Q1-goals{
+    background-color: violet;
+}
+
+.recruiting{
+    background-color: yellowgreen;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: pink;
+}
+
+.sales{
+    background-color: green;
+}
+/* ETICHETTE */

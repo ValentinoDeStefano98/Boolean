@@ -1,0 +1,417 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.3);
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bg-grey{
+    background-color: #F6F6F6;
+}
+
+.wave{
+    display: block;
+}
+
+.waves-w{
+    margin-top: -50px;
+}
+/* GENERAL */
+
+/* HEADER */
+header{
+    background-color: #3161E0;
+}
+
+.up-section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#nav-bar{
+    width: 60%;
+    float: left;
+}
+
+#nav-bar ul{
+    text-align: center;
+}
+
+#nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+#nav-bar a{
+    color: white;
+    font-weight: bold;
+}
+
+.login span{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.login{
+    float: left;
+    width: 20%;
+    position: relative;
+    right: 0;
+}
+
+.logo a img{
+    padding-top: 15px;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+}
+/* HEADER */
+
+/* MAIN */
+
+/* HERO SECTION */
+.hero{
+    height: 400px;
+    background-image: url(./../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero .c-hero {
+    height: 85%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.c-hero h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.c-hero p{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.call-to-action-1{
+    width: 35%;
+    float: left;
+}
+
+.call-to-action-2{
+    width: 55%;
+    float: right;
+}
+
+.button-container{
+    width: 600px;
+    margin: 40px auto;
+}
+
+.mac-download span{
+    font-size: 20px;
+}
+
+.c1 .mac-download{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.c2 #browser{
+    padding: 10px;
+    color: white;
+    background-color: #23272A;
+    border-radius: 20px;
+}
+/* HERO SECTION */
+
+/* SECTION */
+.info{
+    height: 50vh;
+    position: relative;
+}
+
+.info h2{
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.info p{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.container{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .section{
+    height: 100%;
+    width: 50%;
+}
+
+.container .img{
+    max-width: 100%;
+    height: auto;
+}
+
+.s1{
+    float: left;
+    position: relative;
+}
+
+.s2{
+    float: left;
+    position: relative;
+}
+
+.chat{
+    position: absolute;
+    left: 150px;
+}
+
+.download{
+    height: 100vh;
+    position: relative;
+    /* background-image: url(./../img/wave.svg);
+    background-color: #F6F6F6; */
+}
+
+.download div{
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);       
+}
+
+.last-section{
+    top: 5px;
+    position: relative;
+    background-color: black;
+    z-index: 1;
+}
+
+.tech .img{
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+}
+
+.tech h2{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 30px;
+}
+
+.tech p{
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.star{
+    position: absolute;
+    bottom: 110px;
+    left: 50px;
+} 
+
+.tech h3{
+    position: absolute;
+    bottom: 100px;
+    font-size: 1.5em;
+    left: 140px;
+}
+
+.tech .mac-download span{
+    font-size: 20px;
+}
+
+.tech .mac-download{
+    position: absolute;
+    bottom: 2px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #8FA0E1;
+    border-radius: 20px;
+    left: 40%;
+}
+/* SECTION */
+
+/* FOOTER */
+footer{
+    height: 550px;
+    background-color: #23272A;
+    position: relative;
+}
+
+footer .footer-container{
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.footer-container .social{
+    width: 20%;
+    height: 80%;
+    /* background-color: blue; */
+    float: left;
+
+}
+
+.footer-container .contact{
+    width: calc(20% - 20px);
+    margin-left: 10px;
+    height: 80%;
+    /* background-color: blue; */
+    float: right;
+    
+}
+
+.end{
+    position: absolute;
+    width: 90%;
+    bottom: 30px;
+    left: 5%;
+}
+
+.logo-footer{
+    float: left;
+    padding-top: 20px;
+}
+
+.signup{
+    padding-top: 20px;
+    float: right;
+}
+
+.end hr{
+    border-color: #465379;
+}
+
+footer h2, h3{
+    color: #7189DA;
+}
+
+footer li{
+    color: white;
+    padding: 5px 0;
+}
+
+.signup span{
+    display: inline-block;
+    background-color: #8FA0E1;
+    color: white;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#Italy{
+    padding-top: 10px;
+    width: 30px;
+}
+
+.language{
+    color: white;
+}
+
+.nation{
+    display: block;
+}
+
+.loghi{
+    width: 30px;
+    padding-top: 10px;
+}
+
+.contact li{
+    transition: transform .2s;
+}
+
+.contact li:hover{
+    transform: scale(1.3);
+}
+/* FOOTER */

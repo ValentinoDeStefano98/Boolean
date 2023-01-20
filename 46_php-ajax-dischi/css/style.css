@@ -1,0 +1,44 @@
+/* GENERAL */
+body{
+  background-color: #1E2D3B;
+}
+
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header{
+    background-color: #2D3A46;
+}
+
+.logo{
+    width: 30%;
+    padding: 10px 10px;
+}
+
+/* LIBRARY */
+.poster{
+    max-width: 80%;
+}
+
+.grey{
+    color: #747778;
+}
+
+.miniContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.posterContainer{
+    width: 80%;
+    padding: 15px 0;
+    flex-basis: calc((100% / 5) - 40px);
+    margin: 0 20px;
+    background-color: #2D3A46
+}
+
+
+

@@ -1,0 +1,14 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teamContainer{
+    flex-basis: calc(100% / 5);
+}
+
+.bigContainer{
+    width: 80%;
+    margin: 0 auto;
+}

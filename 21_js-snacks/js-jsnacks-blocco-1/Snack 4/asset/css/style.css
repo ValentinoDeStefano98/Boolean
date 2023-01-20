@@ -1,0 +1,17 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./../img/parigi-romantica.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.visibility{
+    text-shadow: 5px 5px 10px black;
+}

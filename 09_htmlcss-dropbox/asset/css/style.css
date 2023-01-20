@@ -1,0 +1,686 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul .head-list{
+    display: inline-block;
+    list-style: none;
+    font-weight: 400;
+}
+
+.modify-a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 16px;
+    color: black;
+}
+
+/* EFFECTS */
+.underline:hover{
+    text-decoration: underline;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
+
+.pack-zoom{
+    transition: transform .2s;
+}
+
+.pack-zoom:hover{
+    transform: scale(0.9);
+}
+
+.no-underline:hover{
+    text-decoration: none;
+}
+
+/* HEADER */
+header{
+    min-width: 1440px;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    background-color: white;
+}
+
+.head{
+    width: 50%;
+}
+
+.logo{
+    float: left;
+}
+
+.half{
+    float: left;
+    text-align: right;
+}
+
+.logo img{
+    width: 140px;
+    vertical-align: middle;
+    padding-bottom: 8px;
+}
+
+.head-nav {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.button{
+    padding: 10px 20px;
+    margin-right: 15px;
+    background-color: #0161FF;
+    color: white;
+}
+
+/* MAIN */
+
+/* HERO SECTION */
+.section-title h1{
+    font-size: 4.2em;
+    padding: 20px 0;
+}
+.hero{
+    background-color: #B4D0E7;
+    margin-top: 5%;
+    width: 100%;
+    height: 55vh;
+}
+
+.hero-container{
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.free-trial{
+    width: 35%;
+    height: 80%;
+    float: left;
+}
+
+.hero-img{
+    width: 65%;
+    height: 105%;
+    float: left;
+}
+
+.hero-img img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.free-trial p{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.free-trial .button{
+    background-color: #0161FF;
+    color: white;
+    padding: 10px 20px;
+}
+
+.free-trial span{
+    display: block;
+    margin-top: 30px;
+}
+
+.fa-arrow-down{
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: black;
+}
+
+/* PLAN SECTION */
+.plane{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-title h2{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 2em;
+}
+
+.section-title form .second-radio{
+    margin-left: 20px;
+}
+
+.section-title form{
+    padding-bottom: 40px;
+}
+
+.planes-container{
+    width: 100%;
+    height: 90%;
+}
+
+.pack{
+    min-height: 1024px;
+    width: calc(96% / 3);
+    border: 1px solid lightgray;
+    float: left;
+}
+
+.standard{
+    margin-right: calc(4% / 2);
+    margin-left: calc(4% /2);
+}
+
+.pack-main{
+    margin: 20px;
+}
+
+.info-pack{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.info-pack h2{
+    padding-bottom: 10px;
+}
+
+.info-pack span{
+    display: block;
+}
+
+.info-pack .price{
+    font-weight: bolder;
+}
+
+.info-pack .date{
+    color: #6D7B89;
+}
+
+.pack-header{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.pack-header i{
+    padding: 10px 0;
+}
+
+.funzionality-pack div{
+    padding-bottom: 20px;
+}
+
+.funzionality-pack .free-trial-shop{
+    padding: 20px 0;
+}
+
+.funzionality-pack .free-trial-shop p{
+    padding-top: 30px;
+}
+
+.funzionality-pack :nth-child(3) p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.funzionality-pack .free-trial-shop hr{
+    margin-top: 30px;
+    width: 20%;
+}
+
+.funzionality-pack .free-trial-shop div{
+    background-color: #0161FF;
+    text-align: center;
+    height: 40px;
+}
+
+.funzionality-pack .free-trial-shop .trial{
+    line-height: 40px;
+    color: white;
+}
+
+.recap-plan h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.recap-plan li{
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.recap-plan li p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recap-plan li i{
+    color: #0161FF;
+}
+
+.enterprise{
+    margin-top: 40px;
+}
+
+.enterprise .pack-header{
+    border: 1px solid lightgray;
+}
+
+.enterprise-container{
+    border: 1px solid lightgray;
+}
+
+.enterprise-container .description{
+    width: 74%;
+    height: 100%;
+    float: left;
+}
+
+.enterprise-container .contact{
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+
+.enterprise-container .contact a{
+    display: inline-block;
+    padding: 15px ;
+    width: 95%;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #0161FF;
+    color: white;
+}
+
+.enterprise-container .description h2{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.enterprise-container .description h3{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.enterprise-container .description p{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.enterprise-container .description p{
+    padding-bottom: 25px;
+}
+
+/* PARTNER SECTION */
+.partner{
+    width: 80%;
+    margin: 130px auto;
+}
+
+.block{
+    width: 50%;
+    float: left;
+}
+
+.img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.block-container .trust div{
+    margin: 20px 20px;
+}
+
+.block-container .trust div h2{
+    padding-bottom: 20px;
+}
+
+.block-container .trust div a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+/* BUSINESS SECTION */
+.business{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.c1 a{
+    color: black;
+}
+
+.business h2{
+    font-size: 2.5em;
+}
+
+.business .raw{
+    margin-top: 60px;
+}
+
+.business .raw .column{
+    width: calc(90% / 3);
+}
+
+.business .raw .c1{
+    float: left;
+}
+
+.business .raw .c2{
+    float: left;
+    margin-left: calc(10% / 2);
+    margin-right: calc(10% / 2);
+}
+
+.business .raw .c3{
+    float: left;
+}
+
+.business .column img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.business .column h3{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+/* TEAM SECTION */
+.team{
+    width: 100;
+    margin: 150px auto;
+    height: 700px;
+}
+
+.team-header{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-header a{
+    color: #0161FF;
+}
+
+.team-header h2{
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+.team .team-container{
+    margin-top: 40px;
+    height: 400px;
+}
+
+.team-container .square{
+    height: 100%;
+}
+
+.team-container .s1{
+    width: 25%;
+    float: left;
+} 
+
+.team-container .s2{
+    width: 50%;
+    float: left;
+    background-color: #F5F5F5;
+    overflow-y: auto;
+} 
+
+.team-container .s3{
+    width: 25%;
+    float: left;
+}
+
+.row{
+    height: 50%;
+}
+
+.center{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.s1 .row .center img{
+    width: 55%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+.s3 .row .center img{
+    width: 55%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+.filter{
+    filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(237deg) brightness(104%) contrast(104%);
+}
+
+.designit{
+    background-color: #A2D39B;
+    box-shadow:0 0 0 8px #D0E9CD inset;
+}
+
+.asu{
+    background-color: #60092B;
+}
+
+.florida{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1B1C;
+}
+
+.bicicle{
+    background-color: #D50120;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.planet{
+    background-color: #0D2481;
+}
+
+.clear{
+    background-color: #FFD830;
+}
+
+.s2 div{
+    max-height: 60%;
+    margin: 0 20px;
+}
+
+.s2 img{
+    padding: 40px 0;
+    width: 30%;
+}
+
+.s2 hr{
+    width: 15%;
+    margin-bottom: 40px;
+}
+
+.s2 p{
+    padding-bottom: 40px;
+}
+
+.team-footer{
+    background-color: #B4D0E7;
+    width: 100%;
+}
+
+.team-footer .r1{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.team-footer .r1 h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 100px 0;
+    color: #641232;
+}
+
+.team-footer .r2{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.team-footer .r2 a{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 100px;
+}
+
+/* FAQ SECTION */
+.faq{
+    width: 80%;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.faq h2{
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+
+.faq .difference{
+    margin-top: 20px 0;
+}
+
+.difference .title{
+    float: left;
+    padding: 35px 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden p{
+    padding-bottom: 20px;
+}
+
+.difference .icon{
+    float: right;
+    padding: 35px 10px 0;
+}
+
+.difference:hover + .hidden{
+    display: block;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: black;
+    height: 450px;
+}
+
+footer .footer-container{
+    height: 80%;
+    padding-right: 130px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.footer-section{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-bottom: 5px;
+    color: white;
+}
+
+footer .footer-container hr{
+    border-color: white;
+    margin-left: 20px;
+    width: 10%;
+}
+
+.footer-section ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-nav h3{
+    padding: 20px 0;
+}
+
+.fa-earth-americas{
+    color: white;
+}
+
+.fa-angle-up{
+    color: white;
+}
+
+.language{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.language span{
+    color: white;
+}

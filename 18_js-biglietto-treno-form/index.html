@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Trainline</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-4">
+                    <img class="cursor" src="./asset/img/logo.png" alt="logo Boolean">
+                </div>
+                <div class="d-none d-lg-block col-lg-4 d-flex align-items-center text-center">
+                    <h1 class="text-white cursor">Boolean Trainline</h1>
+                </div>
+                <div class="col-sm-6 col-mid-6 col-lg-4 d-flex align-items-center justify-content-end">
+                    <a class="me-3 text-decoration-none text-white" href="#"><span class="underline">Accedi</span></a>
+                    <a class="text-decoration-none text-white" href="#"><span class="underline">Aiuto</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main class="py-3">
+        <div class="big-container">
+            <div class="container wallpaper p-5">
+                <div class="row">
+                    <div class="col-lg-2">
+                    </div>
+                    <div class="col-lg-8 text-center">
+                        <div class="mb-5">
+                            <h2 class="text-white pb-2">Calcola il prezzo del tuo biglietto!</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <span class="text-white"> Nome e Cognome</span>
+                                        <input class="rounded-3" type="text" id="nomeCognome">
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <span class="text-white">Km da percorrere</span>
+                                        <input class="rounded-3" type="number" id="chilometri">
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <span class="text-white">Fascia d'età </span>
+                                        <select class="rounded-3 py-1" name="age" id="age">
+                                            <option value="Biglietto Under 18">Under 18</option>
+                                            <option value="Biglietto Over 65">Over 65</option>
+                                            <option value="Biglietto standard">Tra 18 e 65 anni</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="mb-5 text-white">Clicca sul pulsante qui in basso per registrare i tuoi dati e
+                                generare il biglietto. <br> La tua età serve a verificare se hai diritto
+                                ad uno sconto 😊</p>
+                            <button type="button" id="ticket_button" class="btn btn-success mb-5 me-3">Genera</button>
+                            <button type="button" id="cancel_button" class="btn btn-success mb-5 ms-3">Annulla</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="show" class="d-none">
+            <div class="text-center mt-5">
+            <h2 class="text-white">Il tuo biglietto</h2>
+        </div>
+        <div class="border ticket p-3 pb-3">
+            <h3>Dettaglio passeggeri</h3>
+            <div class="container">
+                <div class="row border">
+                    <div class="col-6 col-lg-4 border-end text-center d-flex flex-column justify-content-start passenger">
+                        <span class="d-inline-block py-3 fs-4">Nome passeggero</span>
+                        <div id="name">
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 d-flex flex-column justify-content-start text-center">
+                        <span class="fs-4 py-3">Offerta</span>
+                        <div id="ticketType" class="mb-3">
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 d-flex flex-column justify-content-start text-center">
+                        <span class="fs-4 py-3">Carrozza</span>
+                        <div id="numeroCarrozza" class="mb-3">
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 d-flex flex-column justify-content-start text-center">
+                        <span class="fs-4 py-3">Codice CP</span>
+                        <div id="codiceCP" class="mb-3">
+
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-2 d-flex flex-column justify-content-start text-center">
+                        <span class="fs-4 py-3">Costo biglietto</span>
+                        <div id="costo" class="mb-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <button class="btn btn-success">Acquista il biglietto</button>
+            </div>
+        </div>
+        </div>  
+    </main>
+    <!-- FOOTER -->
+    <footer class="">
+        <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 col-lg-6 text-white">
+                        <img class="img-fluid" src="./asset/img/Logo.png" alt="">
+                        <span>Powered by Boolean</span>
+                        
+                    </div>
+                    <div class="d-none d-lg-block col-lg-6">
+
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="./asset/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+/* GENERAL */
+html{
+    font-family: 'Quicksand',sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* EFFECTS */
+.underline:hover{
+    text-decoration: underline;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(7, 28, 54, 0.9);
+}
+
+/* MAIN */
+main{
+    background-color: rgba(7, 28, 54, 0.5);
+}
+
+.big-container {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(./../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    border-radius: 10px;
+}
+
+.wallpaper {
+    background-color: rgba(7, 28, 54, 0.6);
+    border-radius: 10px;
+}
+
+.ticket{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.d-none{
+    display: none;
+}
+
+.passenger{
+    background-color: rgba(7, 28, 54, 0.5);
+}
+
+/* FOOTER */
+footer {
+    background-color: rgba(7, 28, 54, 0.9);
+}

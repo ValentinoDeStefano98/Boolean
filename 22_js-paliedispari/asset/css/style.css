@@ -1,0 +1,19 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./../img/360_F_318487428_RTxUyTQW04RXcakokT3SMLo8lzkQySBG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+.box{
+    padding: 10px;
+    background-color: #FFC007;
+    border-radius: 10px;
+}

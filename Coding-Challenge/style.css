@@ -1,0 +1,50 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  color: #00dd00;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  width: 250px;
+}
+
+.menu {
+  background-color: #00dd00;
+  padding: 12px;
+}
+
+.colore {
+  color: white;
+}
+
+#carica1 {
+  width: 280px;
+  height: 20px;
+  background: orange;
+}
+
+#carica2 {
+  width: 400px;
+  height: 20px;
+  background: #00dd00;
+}
+
+#carica3 {
+  width: 100px;
+  height: 20px;
+  background: red;
+}

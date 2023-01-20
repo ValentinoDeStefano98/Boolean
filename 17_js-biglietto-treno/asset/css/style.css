@@ -1,0 +1,38 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Fredoka',sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: rgba(7, 28, 54, 0.9);
+}
+
+/* MAIN */
+.big-container{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(./../img/wallpaper.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: 50% 30%;   
+    border-radius: 10px;
+}
+
+.wallpaper{
+    background-color: rgba(7, 28, 54, 0.6);
+    border-radius: 10px;
+}
+
+.info-box{
+    height: 200px;
+    border-radius: 10px;
+    background-color: #167347;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgba(7, 28, 54, 0.9);
+}

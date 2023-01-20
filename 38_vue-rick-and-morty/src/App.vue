@@ -1,0 +1,41 @@
+<template>
+  <div>
+    <HeaderComp msg="Rick and Morty app" />
+
+  <div class="container">
+    <AvatarsComp/>
+  </div>
+    
+  </div>
+</template>
+
+<script>
+import "bootstrap"
+
+//components
+import HeaderComp from './components/HeaderComp.vue'
+import AvatarsComp from './components/AvatarsComp.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HeaderComp,
+    AvatarsComp
+  }
+}
+</script>
+
+<style lang="scss">
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+</style>

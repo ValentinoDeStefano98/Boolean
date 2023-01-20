@@ -1,0 +1,15 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.click{
+    background-color: lightblue;
+}
+
+.boxEdit{
+    border: 1px solid black;
+    background-color: lightblue;
+    border-radius: 10px;
+}

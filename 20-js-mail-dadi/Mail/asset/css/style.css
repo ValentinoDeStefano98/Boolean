@@ -1,0 +1,15 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+body{
+    height: 100vh;
+    background-image: url(./../img/logo\ boolean.jpg);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 35%;
+}

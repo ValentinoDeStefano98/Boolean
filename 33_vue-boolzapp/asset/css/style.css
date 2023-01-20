@@ -1,0 +1,104 @@
+/* GENERAL */
+.main{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 20px 2px #000;
+}
+
+/* BACKGROUND */
+.background{
+    height: 100vh;
+    /* Gradiente per sfondo */
+    background-image: linear-gradient(to bottom,
+    #009688 0px,
+    #009688 15vh,
+    #dddbd1 15vh,
+    #d2dbdc 100%);
+}
+
+/* PROFILE IMAGE */
+.img-size{
+    width: 60px;
+    height: 60px;
+}
+
+.small-text{
+    font-size: 0.8em;
+}
+
+.very-small-text{
+    font-size: 0.6em;
+}
+
+/* RESET P */
+p{
+    margin-bottom: 0;
+}
+
+/* CHAT COLOR */
+.sent{
+    background-color: #D8F8BF;
+}
+
+.received{
+    background-color: white;
+}
+
+.chatBackground{
+    background-image: url(./../img/mine.jpg);
+    overflow: auto;
+}
+
+.message-container{
+    background-color: #F1EEED;
+}
+
+/* OVERFLOW */
+.contactsContainer{
+    overflow: auto;
+}
+
+.contactsList{
+    overflow: auto;
+}
+
+.chatMessage{
+    overflow: auto;
+}
+
+/* le colonne a 100% di altezza
+d-flex a col 4 poi column
+div contenitore della lista hidden
+ul max height 100% poi scroll */
+
+/* DROPDOWN MENU */
+.dropDownButton{
+    visibility: hidden;
+}
+
+.dropDownShow:hover .dropDownButton{
+    visibility: visible;
+}
+
+.dropDownContent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    right: 0;
+    box-shadow: 2px 2px 20px 2px #000;
+}
+
+/* Se inserisco due fratelli in un div e do al fratello maggiore (quello sopra) l'hover + il fratello minore da visualizzare, compare anche se clicco sull'icona */
+/* .dropDownButton:hover + .dropDownContent{
+    display: block;
+} */
+
+.dropDownContainer:hover .dropDownContent{
+    display: block;
+}
+
+.activeChat{
+    background-color: grey;
+}

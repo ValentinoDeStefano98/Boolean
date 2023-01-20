@@ -1,0 +1,37 @@
+/* GENERAL */
+html{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Overpass',
+    sans-serif;
+}
+body {
+    background-color:#F5F5F1!important;
+}
+
+/* EFFECTS */
+.cursor:hover{
+    cursor: pointer;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.zoom{
+    transition: 0.2s;
+}
+
+/* MAIN */
+.bigContainer,
+.presentation,
+header{
+    width: 60%;
+    margin: 0 auto;   
+}
+
+.card{
+    flex-basis: calc(90% / 3);
+    margin: 20px 0;
+}
+

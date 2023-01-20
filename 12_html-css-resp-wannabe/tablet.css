@@ -1,0 +1,26 @@
+@media screen and (max-width:1023px){
+    .row{
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .row div{
+        margin-bottom: 20px;
+    }
+
+    #lezioni > .row{
+        background-color: lightgray;
+    }
+
+    #why .row{
+        background-color: lightgray;
+    }
+
+    #lezioni .row>.left, #lezioni .row>.right{
+        width: 100%;
+    }
+
+    #steps .row>.left, #steps .row>.central, #steps .row>.right{
+        width: 100%;
+    }
+}

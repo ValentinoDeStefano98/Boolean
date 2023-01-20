@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 12px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.head{
+    height: 80px;
+    background-color: #307cdf;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-size: 30%;
+}
+
+.logo{
+    height: 80px;
+    width: 150px;
+    margin-left: 5px;
+    padding-top: 20px;
+    margin-left: 193px;
+}
+
+.title{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 2rem;
+}
+
+#autore{
+    font-size: 13px;
+    color: grey;
+}
+#data{
+    font-size: 10px;
+    color: grey;
+}
+
+#nome{
+    color: lightskyblue;
+}
+
+.image{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#prima-immagine-lee{
+    width: 50%;
+}
+
+#seconda-immagine-lee{
+    width: 43%;
+}
+
+.photo-description{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.paragrafo-centrale{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.testo-evidenziato{
+    background-color: khaki;
+}
+
+.lista{
+    margin-left: 22px;
+}
+
+table{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: normal;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.colonna-piccola{
+    width: 25%;
+}
+
+.terza-colonna{
+    width: 50%;
+}
+
+.riga-header{
+    background-color: blue;
+    color: white;
+}
+
+.prima-riga{
+    background-color: cadetblue;
+}
+
+.terza-riga{
+    background-color: cadetblue;
+}
+
+.footer{
+    color: grey;
+    margin-left: 5px;
+}
+
+.immagine-footer1{
+    height: 120px;
+    background-image: url(../img/monitor.jpg);
+    width: 20%;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.immagine-footer2{
+    height: 120px;
+    background-image: url(../img/graph.jpg);
+    width: 20%;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.testo-footer{
+    color: white;
+    padding: 7px;
+}
